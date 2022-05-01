@@ -27,7 +27,9 @@ public class Solution {
                     failer++;
                 }
                 failper = (double) failer / (double) chalenger;
-
+                if (chalenger == 0) {
+                    failper = 0;
+                }
             }
             failperList.add(new double[] { i, failper });
         }
