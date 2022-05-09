@@ -1,3 +1,5 @@
+package Level1;
+
 class solution {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4 };
